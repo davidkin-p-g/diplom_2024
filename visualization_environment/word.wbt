@@ -1,0 +1,111 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/husarion/rosbot/protos/Rosbot.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/balls/protos/Ball.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/drinks/protos/WaterBottle.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/toys/protos/RubberDuck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5563270673139885 0.5135109720002585 0.6533044281260969 2.056316506004481
+  position 1.408860744942833 -2.469286170831183 4.8141722109496845
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 1.5 -1.5 0
+  floorSize 3 3
+  wallThickness 0.03
+  wallHeight 0.5
+}
+RubberDuck {
+  hidden linearVelocity_0 1.5789536434193607e-17 1.789240764645193e-17 -0.00010288793870048497
+  hidden angularVelocity_0 -9.6892749714196e-16 8.824399948809068e-16 -1.0768491984385293e-16
+  translation 1.857753836256768 -0.29550312679540663 0.030554263533399073
+  rotation -2.3010945674849226e-17 -8.265759006836554e-17 -1 0.6161018277180229
+  scale 1.5
+}
+Ball {
+  hidden linearVelocity_0 0 0 -4.303824772415846e-05
+  translation 0.75 -2.58 0.09991921114721744
+  name "ball(3)"
+  color 1 1 1
+  radius 0.1
+}
+WaterBottle {
+  hidden linearVelocity_0 -2.175813525158197e-18 -4.6583713196317766e-17 -0.00019817005648531006
+  hidden angularVelocity_0 3.3448461823391607e-16 8.219272690956183e-17 -3.6611686499497695e-17
+  translation 0.17 -1.76 -0.0023670779809149556
+  rotation 0.03786326083614736 0.006128529774122257 -0.9992641365533248 1.5763910167675026e-15
+}
+Ball {
+  hidden linearVelocity_0 0 0 -4.303824772415846e-05
+  translation 1.05 -0.81 0.09991921114721744
+  color 0 0 1
+  radius 0.1
+}
+Ball {
+  hidden linearVelocity_0 0 0 -4.303824772415846e-05
+  translation 2.78 -2.4 0.09991921114721744
+  name "ball(1)"
+  color 0 1 0
+  radius 0.1
+}
+Ball {
+  hidden linearVelocity_0 0 0 -4.303824772415846e-05
+  translation 2.27 -0.58 0.09991921114721744
+  name "ball(2)"
+  color 1 0 0
+  radius 0.1
+}
+Wall {
+  translation 1.5 -2.5 0
+  size 0.03 1 0.5
+}
+Wall {
+  translation 1.5 -0.51 0
+  name "wall(2)"
+  size 0.03 1 0.5
+}
+Wall {
+  translation 0.5 -1.5 0
+  rotation 0 0 1 1.57
+  name "wall(1)"
+  size 0.03 1 0.5
+}
+Wall {
+  translation 2.7 -2 0
+  rotation 0 0 1 1.57
+  name "wall(3)"
+  size 0.03 0.6 0.5
+}
+Rosbot {
+  hidden position_0_0 209.50401955416723
+  hidden position_0_1 156.15433812023417
+  hidden position_0_2 209.50278923618848
+  hidden position_0_3 156.15506644127404
+  hidden linearVelocity_0 3.516403280461185e-06 9.472537059878784e-06 0.001737183099029915
+  hidden angularVelocity_0 -8.911543352292305e-05 3.3081508741024335e-05 7.160098490910618e-13
+  hidden rotation_2 0 -1 0 4.124280889938711
+  hidden linearVelocity_2 1.4224251038321752e-06 3.831606042386387e-06 0.0017422440106037698
+  hidden angularVelocity_2 -8.91148596348229e-05 3.308283778107889e-05 -8.686462192533013e-12
+  hidden rotation_3 0 1 0 5.357890747924097
+  hidden linearVelocity_3 1.4223316964000205e-06 3.8316406772227035e-06 0.0017422438904918635
+  hidden angularVelocity_3 -8.91158683750903e-05 3.3080120485866355e-05 1.0138767903879779e-11
+  hidden rotation_4 0 -1 0 4.125511207917463
+  hidden linearVelocity_4 1.4224442667691256e-06 3.831666574906775e-06 0.0017322551480369272
+  hidden angularVelocity_4 -8.911490105212935e-05 3.308275732333334e-05 -5.770832721430178e-12
+  hidden rotation_5 0 1 0 5.358619068963969
+  hidden linearVelocity_5 1.4223566390699642e-06 3.8316990647191954e-06 0.0017322550279273514
+  hidden angularVelocity_5 -8.911584733762429e-05 3.3080208262369144e-05 7.2254802743467145e-12
+  translation 0.9073461488449 -2.154204702274099 -0.0005069205020411527
+  rotation 1.4372345329244649e-05 9.99337058920276e-06 -0.999999999846784 1.9262596046856362
+  controller "standart_contr"
+}
